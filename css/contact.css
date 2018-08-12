@@ -1,0 +1,114 @@
+nav>ul>li:nth-child(6)>a{
+    border-bottom: 2px solid #097c25;
+}
+/* 联系方式 有意咨询开始 */
+.contact{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+.fangshi{
+    width: 600px;
+    box-sizing: border-box;
+    padding: 75px 0 85px 140px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 0 5px 15px 0px #dddddd;
+    margin-top: -75px;
+    height: 480px;
+}
+.fangshi>p:nth-child(1){
+    font-size: 36px;
+    color: #73baa9;
+    font-weight: bold;
+}
+.fangshi>p:nth-child(2){
+    font-size: 18px;
+    color: #a0a0a0;
+    margin-top: 60px;
+}
+.fangshi>p:nth-child(3){
+    font-size: 30px;
+    color: #a0a0a0;
+    margin-top:10px;
+}
+.fangshi>p:nth-child(4){
+    width: 400px;
+    height: 1px;
+    border-top: 1px dashed #a0a0a0;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.fangshi>p:nth-child(5),.fangshi>p:nth-child(6){
+    font-size: 18px;
+    color: #a0a0a0;
+}
+.fangshi>p:nth-child(6){
+    margin-top: 10px;
+}
+.yixiang{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 80px 68px 25px 68px;
+    background-color: #73baa9;
+    margin-top: -3px;
+    height: 510px;
+}
+.yixiang>p:nth-child(1){
+    align-self: flex-end;
+    font-size: 30px;
+    color: #fff;
+    margin-right: 45px;
+}
+.yixiang>input,.yixiang>textarea{
+    width: 425px;
+    background-color: #427f70;
+    border: none;
+    margin-top: 25px;
+    text-indent: 10px;
+    font-size: 18px;
+    color: #fff;
+    outline: none;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
+    color:#fff;
+    opacity: .7;
+}
+.yixiang>textarea{
+    resize: none;
+    padding-top: 10px;
+}
+.yixiang>input{
+    height: 35px;
+}
+.yixiang>a{
+    width: 198px;
+    text-align: center;
+    line-height: 33px;
+    border: 1px solid #fff;
+    font-size: 18px;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.yixiang>a:hover{
+    background-color: #fff;
+    color: #73baa9;
+    border: 1px solid #73baa9;
+}
+/* 联系方式 有意咨询结束 */
+/* 地图开始 */
+.contact-map{
+    width: 100%;
+    margin-top: 60px;
+}
+.contact-map>img{
+    width: 100%;
+}
+/* 地图结束 */
+footer{
+    margin-top: -3px;
+}

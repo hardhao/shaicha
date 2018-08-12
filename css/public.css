@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 头部banner开始 */
+html, body {
+    position: relative;
+    height: 100%;
+    z-index: 10;
+    background-color: #fff;
+  }
+  body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+  }
+  .swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
+      margin: 0 8px;
+  }
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-family: '微软雅黑';
+}
+p{
+    font-family: '微软雅黑'; 
+}
+span{
+    font-family: '微软雅黑';
+}
+.wrap{
+    width: 100%;
+    background-color: #fff;
+}
+.top{
+    width:1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    margin-left: -600px;
+    z-index: 5;
+}
+.banner{
+    width: 100%;
+}
+.banner>img{
+    width: 100%;
+    z-index: -1;
+}
+nav{
+    width: 66%;
+    border-bottom: 1px solid #fff;
+    height: 40px;
+    padding-left:20px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+ul li{
+    width: 105px;
+    display: flex;
+    position: relative;
+}
+ul li a{
+    font-size: 20px;
+    color: #fff;
+    font-family: '微软雅黑';
+    line-height: 20px;
+    position: absolute;
+    z-index: 10;
+    line-height: 39px;
+    width: 80px;
+    margin: 0 auto;
+}
+ul li a:hover{
+    border-bottom: 2px solid #097c25;
+}
+
+/* 头部banner结束 */
+/* 全程帮扶开始 */
+.bangfuCon{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.bangfuTop{
+    width: 800px;
+    margin: 0 auto;
+    background-image: url('../images/green_03.png');
+    padding-top: 20px;
+    padding-bottom: 15px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.bangfuTop>p:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    color: #fff;
+    font-size: 12px;
+    margin: 0 auto;
+}
+.bangfuTop>p:nth-child(2){
+    font-size: 52px;
+    font-weight: 500;
+    color: #fff;
+    margin: 0 auto;
+}
+.bangfuDown{
+    display: flex;
+    justify-content: space-between;
+}
+.bangfuSame{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+}
+.bft{
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.bft>div:nth-child(1){
+    width: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #73baa9;
+    font-size: 30px;
+    color: #fff;
+    z-index: 5;
+}
+.bft>div:nth-child(2){
+    width: 275px;
+    padding: 5px 5px;
+    background-color: #73baa9;
+    text-align: center;
+    border-radius: 5px;
+    height: 35px;
+    margin-top:31px;
+    margin-left: -15px;
+    z-index: 0;
+    
+}
+.bft>div:nth-child(2)>p{
+    background-color: #fff;
+    font-size: 24px;
+    line-height: 33px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+.bfi>a{
+    width: 386px;
+    height: 214px;
+    overflow: hidden;
+    display: flex;
+    border-radius: 10px;
+}
+.bfi>a>img{
+    transition:  1s;
+    transform-origin:50% 50%;
+}
+.bfi>a>img:hover{
+    transform: scale(1.1);
+}
+.bfd{
+    line-height: 30px;
+    margin-top: 20px;
+}
+.bfd>p{
+    font-size: 18px;
+}
+.bfd>p>span:nth-child(1){
+    color: #62d8b6;
+    margin-right: 5px;
+}
+/* 全程帮扶结束 */
+/* 提交部分开始 */
+footer{
+    width: 100%;
+    background-color: #73baa9;
+    margin-top: 50px;
+}
+.footerTop{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 21px;
+    padding-bottom: 44px;
+    display: flex;
+}
+.ftl{
+    width: 42px;
+    padding-top: 111px;
+    border-top: 3px solid #fff;
+    border-left: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+}
+.quse>p{
+    font-family: '微软雅黑';
+    color:#fff;
+    margin-left: -20px;
+}
+.quse>p:nth-child(1){
+    font-size: 49px;
+    margin-top: 10px;
+}
+.quse>p:nth-child(2){
+    font-size: 18px;
+}
+.srk{
+    width: 250px;
+}
+.srk>input{
+line-height: 40px;
+width: 250px;
+text-indent: 10px;
+margin-top: 14px;
+margin-left: 20px;
+outline: 0;
+font-size: 18px;
+}
+.biginput{
+    width: 318px;
+    height:90px;
+    margin-top: 14px;
+    outline: 0;
+    margin-left: 30px;
+    font-size: 18px;
+    text-indent: 15px;
+    padding-top: 10px;
+    resize:none
+}
+.push{
+    border:2px solid #fff;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 66px;
+    margin-top: 76px;
+    margin-left: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+/* 提交部分结束 */
+
+/* 底部开始 */
+
+.finalBlack{
+    background-color: #000;
+    padding-top: 100px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.blackLine{
+    width: 580px;
+    height: 1px;
+    border-top: 1px solid #73baa9;
+    margin: 0 auto;
+}
+.shaicha{
+    width: 149px;
+    margin: 0 auto;
+    padding: 0 40px;
+    background-color: #000;
+    margin-top: -55px;
+}
+.blackNav{
+    width: 810px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+.blackNav>a{
+    font-size: 20px;
+    color: #fff;
+}
+.blackNav>a:hover{
+    color: rgb(136, 128, 128);
+}
+.blackThr{
+    display: flex;
+    justify-content: space-between;
+    width: 860px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 45px;
+}
+.address,.phone{
+    display: flex;
+}
+.address>p:nth-child(2){
+    width: 325px;
+    color: #fff;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top:5px;
+}
+.phone>p:nth-child(2){
+    font-size: 40px;
+    color: #fff;
+    margin-left: 25px;
+    line-height: 56px;
+}
+.lastOne{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.lastOne>p{
+    color: #898989;
+    font-size: 10px;
+}
+/* 底部结束 */

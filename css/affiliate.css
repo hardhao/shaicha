@@ -1,0 +1,362 @@
+nav>ul>li:nth-child(4)>a{
+    border-bottom: 2px solid #097c25;
+}
+/* 新闻开始 */
+.news{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.newsTop{
+    width: 800px;
+    margin: 0 auto;
+    background-image: url('../images/green_03.png');
+    padding-top: 20px;
+    padding-bottom: 15px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.newsTop>p{
+    margin: 0 auto;
+}
+.newsTop>p:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+    color: #fff;
+    font-size: 12px;
+}
+.newsTop>p:nth-child(2){
+    font-size: 52px;
+    font-weight: 500;
+    color: #fff;
+}
+.newsDown{
+    display: flex;
+    justify-content: space-between;
+}
+.newsL{
+    width: 740px;
+}
+.newsL>img:nth-child(2){
+    margin-left: -120px;
+}
+.newsL>p{
+    margin-top: 10px;
+    line-height: 35px;
+    font-size: 18px;
+}
+.newsR{
+    width: 445px;
+    position: relative;
+}
+.newsRop{
+    width:445px;
+    height: 545px;
+    background-color: #779e8e;
+    position: absolute;
+    top: 0;
+    opacity: .6;
+}
+.newsRop>p{
+    font-size: 26px;
+    color: #fff;
+}
+.newsRop>p:nth-child(1)>span{
+    font-size: 36px;
+}
+.opWord{
+    width: 375px;
+    padding-left: 70px;
+    padding-top: 50px;
+    position: absolute;
+    top: 0;
+}
+.opWord>p{
+    font-size: 26px;
+    color: #fff;
+}
+.opWord>p:nth-child(1)>span{
+    font-size: 36px;
+}
+.opWord>img{
+    margin-top: 60px;
+}
+/* 新闻结束 */
+
+/* 创业优势开始 */
+.cyys{
+    width: 1200px;
+    margin: 0 auto;
+    background-image: url('../images/chuangye.jpg');
+    background-repeat: no-repeat;
+    margin-top: 65px;
+}
+.cyys>p{
+    line-height: 140px;
+    text-align: center;
+    font-size: 52px;
+    color: #fff;
+}
+/* 创业优势结束 */
+
+/* 详细创业开始 */
+.detailedCY{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.detailedL,.detailedR{
+    display: flex;
+    margin-top: 22px;
+}
+.detailedL>div:nth-child(2),.detailedR>div:nth-child(2){
+    width: 140px;
+    height: 2px;
+    background-color: #73baa9;
+    align-self: center;
+}
+.detailedLWord,.detailedRWord{
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+}
+.detailedLWordT,.detailedRWordT{
+    display: flex;
+    justify-content: space-between;
+}
+.detailedLWordT>span:nth-child(1),.detailedRWordT>span:nth-child(3){
+    width: 85px;
+    line-height: 85px;
+    border-radius: 50%;
+    background-color: #73baa9;
+    text-align: center;
+    font-size: 28px;
+    color: #fff;
+}
+.detailedLWordT>span:nth-child(2),.detailedLWordT>span:nth-child(3),.detailedRWordT>span:nth-child(1),.detailedRWordT>span:nth-child(2){
+    font-size: 36px;
+    line-height: 85px;
+}
+.detailedLWord>p,.detailedRWord>p{
+    line-height: 40px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.detailedL>img,.detailedR>img{
+    transition: all 1s;
+}
+.detailedL>img:hover{
+    transform: translate(10px,0);
+}
+.detailedR>img:hover{
+    transform: translate(-10px,0);
+}
+/* 详细创业结束 */
+
+/* 品牌形象展示 */
+.brand{
+    width: 100%;
+    background-color: #73baa9;
+    margin-top: 30px;
+    padding-top: 55px;
+    padding-bottom: 70px;
+}
+.brandCon{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.brandTop{
+    display: flex;
+}
+.brandTop>p:nth-child(1),.brandTop>p:nth-child(2){
+    font-size: 42px;
+    color: #fff;
+}
+.brandTop>p:nth-child(2){
+    margin-left: 20px;
+    margin-right: 45px;
+}
+.brandTop>p:nth-child(3){
+    font-size: 18px;
+    color: #fff;
+    margin-top: 20px;
+}
+.brandMid{
+    display: flex;
+    margin-top: 65px;
+}
+.brandMid>div:nth-child(1){
+    display: flex;
+}
+.brandMid>div:nth-child(1)>img:nth-child(1){
+    width: 203px;
+    height: 286px;
+}
+.brandMid>div:nth-child(1)>img:nth-child(2){
+    width: 172px;
+    height: 250px;
+    margin-top: 35px;
+    margin-left: 40px;
+}
+.brandMid>div:nth-child(2){
+    margin-left: 70px;
+}
+.brandMid>div:nth-child(2)>img:nth-child(1){
+    margin-bottom: 20px;
+}
+.brandMid>img{
+    width: 200px;
+    height: 403px;
+    margin-top: -40px;
+}
+.brandDown{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -40px;
+}
+.brandDown>img:nth-child(1){
+    width: 460px;
+}
+.brandDown>img:nth-child(2),.brandDown>img:nth-child(3){
+    height: 221px;
+    align-self: flex-end;
+}
+/* 品牌形象结束 */
+
+/* <!-- 双重模式样样赚开始 */
+.mode{
+    width: 1200px;
+    margin: 0 auto;
+}
+.modeTop{
+    display: flex;
+    justify-content: space-between;
+}
+.modeTopL{
+    width: 365px;
+    display: flex;
+    flex-direction: column;
+}
+.modeTopL>p:nth-child(1){
+    font-size: 36px;
+    color: #73baa9;
+    text-align: center;
+}
+.modeTopL>p:nth-child(2){
+    font-size: 18px;
+    line-height: 33px;
+    margin-top: 40px;
+}
+.modeTopL>img{
+    width: 250px;
+    height: 271px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.modeTopR{
+    width: 780px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.modeTopR>div:nth-child(1){
+    width: 225px;
+    display: flex;
+    flex-direction: column;
+}
+.modeTopR>div:nth-child(1)>img:nth-child(2){
+    margin-top: -35px;;
+}
+.modeTopR>div:nth-child(2){
+   width: 550px;
+}
+.modeDown{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.modeDown>img{
+    width: 437px;
+}
+.modeDownR{
+    width: 750px;
+}
+.modeDownR>div:nth-child(1){
+    width: 100%;
+    height: 50px;
+    background-color: #73baa9;
+}
+.modeDownR>div:nth-child(2){
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.quyu{
+    width: 285px;
+}
+.quyu>p{
+    font-size: 18px;
+    margin-top: 18px;
+    line-height: 30px;
+}
+.quyu>p:nth-child(1){
+    font-size: 36px;
+    color: #73baa9;
+    margin-top: 40px;
+    margin-bottom: 65px;
+}
+/* 双重模式样样赚结束 */
+
+/* 加盟流程开始 */
+.process{
+    width: 100%;
+    background-image: url('../images/bgg.jpg');
+    padding-top: 60px;
+    margin-top: 40px;
+    padding-bottom: 60px;
+    background-repeat: no-repeat;
+}
+.processCon{
+    width: 1200px;
+    margin: 0 auto;
+}
+.processCon>p{
+    font-size: 52px;
+    color: #fff;
+    text-align: center;
+}
+.processCon>div:nth-child(2){
+    display: flex;
+    margin-top: 65px;
+}
+.proCircle{
+    display: flex;
+}
+.proCircle>p{
+    display: flex;
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    background-color: #73baa9;
+}
+.proCircle>p>span{
+    font-size: 34px;
+    color: #fff;
+    width: 70px;
+    align-self: center;
+    margin: 0 auto;
+}
+.wline{
+    width: 45px;
+    align-self: center;
+    height: 5px;
+    background-color: #73baa9;
+}
+/* 加盟流程结束 */

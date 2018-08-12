@@ -1,0 +1,449 @@
+nav>ul>li:nth-child(3)>a{
+    border-bottom: 2px solid #097c25;
+}
+/* 找好茶开始 */
+.find{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.findLeft{
+    width: 140px;
+    height: 230px;
+    border: 2px solid #73baa9;
+}
+.findLeft>p:nth-child(1){
+    width: 14px;
+    font-size: 14px;
+    color: #73baa9;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.findLeft>p:nth-child(2){
+    font-size: 70px;
+    color: #73baa9;
+    font-weight: bold;
+    text-align: center;
+}
+.findRight{
+    width: 445px;
+}
+.findRight>p:nth-child(1){
+    font-size: 48px;
+    font-weight: bold;
+    color: #73baa9;
+}
+.findRightD{
+    display: flex;
+    margin-top: 45px;
+}
+.findRightD>div{
+    display: flex;
+    flex-direction: column;
+}
+.findRightD>div>span{
+    font-size: 18px;
+    line-height: 30px;
+    color: #000;
+    transition: all 1s;
+    cursor: pointer;
+}
+.findRightD>div:nth-child(2){
+    margin-left: 90px;
+}
+.findRightD>div>span:hover{
+    color: #73baa9;
+    transform: translate(10px,0);
+}
+/* 找好茶结束 */
+/* 三张图开始 */
+.ice{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.square{
+    width: 50px;
+    height: 50px;
+    border-top: 2px solid #73baa9;
+    border-left: 2px solid #73baa9;
+    margin-left: 15px;
+}
+.iceImg{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -30px;
+}
+.iceImg>div{
+    width: 369px;
+    height: 406px;
+    overflow: hidden;
+}
+.iceImg>div>img{
+    transition: all 1s;
+    transform-origin: 50% 50%;
+}
+.iceImg>div>img:hover{
+    transform:scale(1.1,1.1);
+}
+.square1{
+    width: 50px;
+    height: 50px;
+    border-bottom: 2px solid #73baa9;
+    border-right: 2px solid #73baa9;
+    float: right;
+    margin-left: 1140px;
+    margin-top: -30px;
+}
+/* 三张图结束 */
+/* 找鲜果开始 */
+.fruit{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.fruitTop{
+    width: 120px;
+    height: 75px;
+    border-top: 2px solid #73baa9;
+    border-left: 2px solid #73baa9;
+    border-right: 2px solid #73baa9;
+    margin-left: 980px;
+}
+.fruitTop>p{
+    text-align: center;
+    font-size: 14px;
+    color: #73baa9;
+}
+.fruitTop>p:nth-child(1){
+    margin-top: 25px;
+}
+.fruitBg{
+    background-image: url('../images/fruit.jpg');
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 120px;
+    background-repeat: no-repeat;
+}
+.fruitBg>p:nth-child(1){
+    width: 120px;
+    height:100px;
+    border-bottom: 2px solid #fff;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+    margin-left: 980px;
+    font-size: 70px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.fruitBg>p:nth-child(2),.fruitBg>p:nth-child(3){
+    width: 225px;
+    margin: 0 auto;
+}
+.fruitBg>p:nth-child(2){
+    font-size: 30px
+}
+.fruitBg>p:nth-child(3){
+    font-size: 14px;
+    margin-top:30px;
+    line-height: 25px;
+}
+.findFruit{
+    width: 226px;
+    padding-left: 70px;
+    height: 436px;
+    border: 2px solid #73baa9;
+    background-color: #fff;
+    display: flex;
+    margin-top: -404px;
+    margin-left: 95px;
+    box-shadow: 3px 0 5px 0 #54897c;
+}
+.findFruitL{
+    display: flex;
+    flex-direction: column;
+}
+.findFruitL>p{
+    margin-top: 75px;
+    font-size: 48px;
+    color: #73baa9;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.findFruitL>span{
+    margin-top: 6px;
+    font-size: 18px;
+    color: #000;
+    transition: all 1s;
+    cursor: pointer;
+}
+.findFruitL>span:hover{
+    color: #73baa9;
+    transform: translate(10px,0);
+}
+.findFruitJiao{
+    display: flex;
+    flex-direction: column;
+}
+.findFruitJiao>img{
+    width: 44px;
+}
+.findFruitJiao>img:nth-child(1){
+    margin-top: -440px;
+    margin-left: 394px;
+}
+.findFruitJiao>img:nth-child(2){
+    margin-top: 342px;
+    margin-left: 394px;
+}
+.fruitShadow{
+    display: flex;
+    margin-top: -545px;
+    margin-left: 660px;
+}
+.fruitShadow>img:nth-child(1){
+    width: 250px;
+    height: 422px;
+    margin-top: 152px;
+}
+.fruitShadow>img:nth-child(2){
+    margin-left: -200px;
+}
+/* 找鲜果结束 */
+
+/* 找口感开始 */
+.findTexture{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 100px;
+}
+.textureL,.milkteaM{
+    width: 415px;
+    display: flex;
+}
+.rectangle{
+    width: 116px;
+    display: flex;
+    flex-direction: column;
+    height: 151px;
+    text-align: center;
+    border: 2px solid #73baa9;
+    padding-top: 25px;
+    margin-top: 10px;
+}
+.rectangle>span:nth-child(1),.rectangle>span:nth-child(2){
+    font-size: 14px;
+    color: #73baa9;
+}
+.rectangle>span:nth-child(3){
+    font-size: 68px;
+    color: #73baa9;
+    font-weight: bold;
+}
+.texture,.milktea{
+    display: flex;
+    flex-direction: column;
+    margin-left: 43px;
+}
+.texture>p,.milktea>p{
+    font-size: 48px;
+    color: #73baa9;
+    font-weight: bold;
+    margin-bottom: 45px;
+}
+.texture>span,.milktea>span{
+    font-size: 18px;
+    margin-top: 5px;
+    transition: all 1s;
+    cursor: pointer;
+}
+.texture>span:hover,.milktea>span:hover{
+    color: #73baa9;
+    transform: translate(10px,0);
+}
+.textureR{
+    width: 785px;
+    display: flex;
+    justify-content: space-between;
+}
+.textureR>div{
+    width: 387px;
+    height: 378px;
+    overflow: hidden;
+}
+.textureR>div>img{
+    transition: all 1s;
+    transform-origin: 50% 50%;
+}
+.textureR>div>img:hover{
+    transform: scale(1.1,1.1);
+}
+/* 找口感结束 */
+
+/* 找奶茶开始 */
+.findMilktea{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+}
+.milkteaM{
+    width: 340px;
+}
+.findMilktea>div:nth-child(1),.findMilktea>div:nth-child(3){
+    width: 398px;
+    height: 529px;
+    overflow: hidden;
+}
+.findMilktea>div:nth-child(1)>img,.findMilktea>div:nth-child(3)>img{
+    transition: all 1s;
+    transform-origin: 50% 50%;
+}
+.findMilktea>div:nth-child(1)>img:hover,.findMilktea>div:nth-child(3)>img:hover{
+    transform: scale(1.1,1.1);
+}
+/* 找奶茶结束 */
+
+/* 找新鲜开始 */
+.findFresh{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 150px;
+}
+.textureL1{
+    width: 350px;
+}
+.freshL{
+    display: flex;
+    width: 600px;
+}
+.freshL>img{
+    margin-top: -30px;
+}
+.freshR{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+.freshR>div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+}
+.rectangle1{
+    margin-left: 43px;
+    margin-top:10px;
+}
+.texture1>p{
+    margin-bottom: 20px;
+}
+.freshR>img{
+    margin-top: -30px;
+}
+.freshL>img,.freshR>img{
+    width: 229px;
+    height: 494px;
+    transition: all 1s;
+}
+.freshL>img:hover,.freshR>img:hover{
+    transform: translate(10px,0);
+}
+/* 找新鲜结束 */
+
+/* 找梅果开始 */
+.findPlum{
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 65px;
+    background-color: #73baa9;
+    margin-top: 55px;
+}
+.findPlumCon{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.findPlumConT{
+    display: flex;
+    z-index: 2;
+}
+.findPlumConT>img{
+    width: 616px;
+    height: 564px;
+    transition: all 1s;
+}
+.findPlumConT>img:hover{
+    transform: translate(20px,0);
+}
+.texture2{
+    margin-top: 190px;
+    margin-left: 100px;
+}
+.texture2>p,.texture2>span{
+    color: #fff;
+}
+.texture2>span:hover{
+    color: rgb(249, 253, 10);
+}
+.rectangle2{
+    border: 2px solid #fff;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+.findPlumConT>.rectangle2>span{
+    color: #fff;
+}
+.findPlumConD{
+    display: flex;
+    margin-top: -510px;
+    margin-left:55px;
+    z-index: 1;
+}
+.findPlumConD>div:nth-child(1){
+    width: 580px;
+    height: 530px;
+    background-color: #fff;
+}
+.findPlumConD>div:nth-child(2){
+    width: 560px;
+    height: 90px;
+    background-color: #fff;
+    align-self: flex-end;
+}
+/* 找梅果结束 */
+
+/* 找口感2开始 */
+.textureR2>div{
+    width: 389px;
+    height: 464px;
+}
+/* 找口感2结束 */
+
+/* 找原味开始 */
+.findMilktea2>div:nth-child(1),.findMilktea2>div:nth-child(3){
+    width: 423px;
+    height: 507px;
+}
+.findMilktea2>div>img{
+    width: 423px;
+    height: 507px;
+}
+.findMilktea2>.milkteaM>.milktea>p{
+    margin-bottom: 15px;
+}
+.findMilktea2>.milkteaM>.milktea>.rectangle{
+    margin-top: 20px;
+}
+/* 找原味结束 */
