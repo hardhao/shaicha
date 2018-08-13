@@ -77,6 +77,7 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
     color:#fff;
     opacity: .7;
 }
+
 .yixiang>textarea{
     resize: none;
     padding-top: 10px;
@@ -101,14 +102,21 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 }
 /* 联系方式 有意咨询结束 */
 /* 地图开始 */
-.contact-map{
+.cyd{
     width: 100%;
-    margin-top: 60px;
+    height: 480px;
+    margin-top: 65px;
 }
-.contact-map>img{
+#dituContent{
     width: 100%;
+    height: 500px;
+    overflow: visible;
 }
 /* 地图结束 */
 footer{
-    margin-top: -3px;
+    margin-top: -1px;
+    padding-top: 40px;
+}
+.blackNav>a:nth-child(6){
+    color: rgb(136, 128, 128);
 }

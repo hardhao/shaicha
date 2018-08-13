@@ -1,3 +1,6 @@
+nav>ul>li:nth-child(5)>a{
+    border-bottom: 2px solid #097c25;
+}
 /* 新闻标题开始 */
 .news-title{
     width: 1200px;
@@ -87,3 +90,7 @@
     color: #5f5f5f;
 }
 /* 新闻内容结束 */
+
+.blackNav>a:nth-child(5){
+    color: rgb(136, 128, 128);
+}

@@ -48,7 +48,6 @@ nav>ul>li:nth-child(3)>a{
     line-height: 30px;
     color: #000;
     transition: all 1s;
-    cursor: pointer;
 }
 .findRightD>div:nth-child(2){
     margin-left: 90px;
@@ -184,7 +183,6 @@ nav>ul>li:nth-child(3)>a{
     font-size: 18px;
     color: #000;
     transition: all 1s;
-    cursor: pointer;
 }
 .findFruitL>span:hover{
     color: #73baa9;
@@ -265,7 +263,6 @@ nav>ul>li:nth-child(3)>a{
     font-size: 18px;
     margin-top: 5px;
     transition: all 1s;
-    cursor: pointer;
 }
 .texture>span:hover,.milktea>span:hover{
     color: #73baa9;
@@ -447,3 +444,6 @@ nav>ul>li:nth-child(3)>a{
     margin-top: 20px;
 }
 /* 找原味结束 */
+.blackNav>a:nth-child(3){
+    color: rgb(136, 128, 128);
+}

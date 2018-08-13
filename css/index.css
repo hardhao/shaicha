@@ -516,4 +516,8 @@ span{
     margin-left: 270px;
     margin-top: 130px;
 }
+
+.blackNav>a:nth-child(1){
+    color: rgb(136, 128, 128);
+}
 /* 首页结束 */

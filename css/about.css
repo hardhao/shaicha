@@ -337,3 +337,7 @@ span{
 .demoAdvantageSameDownCon>div>img:hover{
     transform: scale(1.1);
 }
+
+.blackNav>a:nth-child(2){
+    color: rgb(136, 128, 128);
+}

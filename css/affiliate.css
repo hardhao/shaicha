@@ -360,3 +360,6 @@ nav>ul>li:nth-child(4)>a{
     background-color: #73baa9;
 }
 /* 加盟流程结束 */
+.blackNav>a:nth-child(4){
+    color: rgb(136, 128, 128);
+}

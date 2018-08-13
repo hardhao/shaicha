@@ -135,3 +135,6 @@ nav>ul>li:nth-child(5)>a{
     border-radius: 10px;
 }
 /* 新闻详情结束 */
+.blackNav>a:nth-child(5){
+    color: rgb(136, 128, 128);
+}
