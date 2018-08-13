@@ -43,7 +43,9 @@
         <div class="yixiang">
             <p>意向咨询</p>
             <input type="text" placeholder="您的姓名">
-            <input type="number" placeholder="您的电话">
+            <input type="number" name="name" class="easyui-validatebox"  onkeyup="checkLen2(this)" maxlength="11"
+            data-options="required:true" placeholder="您的电话"
+            required onKeyUp="gcInsert()" onmousewheel='scrollFunc()' onDOMMouseScroll='scrollFunc()' class="inputTop">
             <textarea name="" id="" cols="30" rows="5" placeholder="您的留言"></textarea>
             <a href="#">发送留言</a>
         </div>
@@ -67,9 +69,9 @@
             <div class="srk">
                 <input type="sdfasdf" placeholder="您的姓名">
                 <input type="number" name="name" class="easyui-validatebox"  onkeyup="checkLen2(this)" maxlength="11"
-                data-options="required:true" placeholder="您的电话">
+                data-options="required:true" placeholder="您的电话"
+                required onKeyUp="gcInsert()" onmousewheel='scrollFunc()' onDOMMouseScroll='scrollFunc()'>
             </div>
-            <!-- <input class="biginput" type="text" placeholder="您的问题"> -->
             <textarea class="biginput" placeholder="您的问题"></textarea>
             <a class="push" href="#">提 交</a>
         </div>
@@ -108,6 +110,7 @@
     </div>
     <script src="./js/input.js"></script>
     <script type="text/javascript"> 
+    
         //创建和初始化地图函数：
     function initMap(){
         createMap();//创建地图

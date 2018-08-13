@@ -73,9 +73,9 @@ nav>ul>li:nth-child(6)>a{
     color: #fff;
     outline: none;
 }
-input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
-    color:#fff;
-    opacity: .7;
+
+.yixiang>::-webkit-input-placeholder {
+    color:    #fff;
 }
 
 .yixiang>textarea{
