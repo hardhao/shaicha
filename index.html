@@ -360,7 +360,8 @@
                 </div>
                 <div class="srk">
                     <input type="text" placeholder="您的姓名">
-                    <input type="number" placeholder="您的电话">
+                    <input type="number" name="name" class="easyui-validatebox"  onkeyup="checkLen2(this)" maxlength="11"
+                    data-options="required:true" placeholder="您的电话">
                 </div>
                 <textarea class="biginput" placeholder="您的问题"></textarea>
                 <a class="push" href="#">提 交</a>
@@ -396,24 +397,19 @@
                   </div>
               </div>
           </div>
+          <script type="text/javascript">
+            function checkLen2(obj){
+                var maxChars = 11;//最多字符数
+                if (obj.value.length > maxChars){
+                    alert("最多输入11个字符，现已超出限制，自动截取前30个字符！");
+                    obj.value = obj.value.substring(0,maxChars);
+                }
+            }   
+        </script>
 </body>
 
 <script src="./js/swiper-4.3.3.min.js"></script>
 
   <!-- Initialize Swiper -->
-  <script>
-    var swiper = new Swiper('.swiper-container', {
-      spaceBetween: 0,
-      centeredSlides: true,
-      loop:true,
-      autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-      },
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-    });
-  </script>
+  <script src="./js/input.js"></script>
 </html>

@@ -64,20 +64,20 @@
                 </div>
                 <div class="styleRightD">
                     <div>
-                        <a href="#">
+                        <div>
                             <img src="./images/style_03.jpg" alt="">
-                        </a>
-                        <a href="#">
+                        </div>
+                        <div>
                             <img src="./images/style_05.jpg" alt="">
-                        </a>
+                        </div>
                     </div>
                     <div>
-                        <a href="#">
+                        <div>
                             <img src="./images/style_09.jpg" alt="">
-                        </a>
-                        <a href="#">
+                        </div>
+                        <div>
                             <img src="./images/style_10.jpg" alt="">
-                        </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -113,27 +113,27 @@
     <div class="product">
         <div class="productCon">
             <div class="productSame">
-                <a href="#">
+                <div>
                     <img src="./images/tea_03.png" alt="">
-                </a>
+                </div>
                     <div>
                         <p><span></span><span>茶</span></p>
                         <p>台湾阿里山、印度大吉岭、日本宇治县……茗茶原地直供原叶好茶</p>
                     </div>
             </div>
             <div class="productSame productSame1">
-                <a href="#">
+                <div>
                     <img src="./images/tea_09.png" alt="">
-                </a>
+                </div>
                 <div>
                     <p><span></span><span>果</span></p>
                     <p>草莓、西瓜、芒果……每一杯茶，只取当季最好的鲜果，过季不售。</p>
                 </div>
             </div>
             <div class="productSame productSame2">
-                <a href="#">
+                <div>
                     <img src="./images/tea_06.png" alt="">
-                </a>
+                </div>
                 <div>
                     <p><span></span><span>乳</span></p>
                     <p>新西兰进口奶酪，奶香十足，口味浓郁、细腻、香醇，多吃不腻。</p>
@@ -221,9 +221,9 @@
             </div>
             <div class="srk">
                 <input type="text" placeholder="您的姓名">
-                <input type="number" placeholder="您的电话">
+                <input type="number" name="name" class="easyui-validatebox"  onkeyup="checkLen2(this)" maxlength="11"
+                data-options="required:true" placeholder="您的电话">
             </div>
-            <!-- <input class="biginput" type="text" placeholder="您的问题"> -->
             <textarea class="biginput" placeholder="您的问题"></textarea>
             <a class="push" href="#">提 交</a>
         </div>
@@ -260,5 +260,6 @@
             </div>
         </div>
     </div>
+    <script src="./js/input.js"></script>
 </body>
 </html>

@@ -9,6 +9,7 @@
     <title>新闻详情</title>
     <link rel="stylesheet" href="./css/public.css">
     <link rel="stylesheet" href="./css/newsDetails.css">
+    <link rel="stylesheet" href="./js/input.js">
 </head>
 <body>
     <div class="top">
@@ -78,9 +79,9 @@
             </div>
             <div class="srk">
                 <input type="text" placeholder="您的姓名">
-                <input type="number" placeholder="您的电话">
+                <input type="number" name="name" class="easyui-validatebox"  onkeyup="checkLen2(this)" maxlength="11"
+                data-options="required:true" placeholder="您的电话">
             </div>
-            <!-- <input class="biginput" type="text" placeholder="您的问题"> -->
             <textarea class="biginput" placeholder="您的问题"></textarea>
             <a class="push" href="#">提 交</a>
         </div>
@@ -117,5 +118,6 @@
             </div>
         </div>
     </div>
+    <script src="./js/input.js"></script>
 </body>
 </html>

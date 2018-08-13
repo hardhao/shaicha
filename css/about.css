@@ -72,16 +72,16 @@ span{
 .styleRightD>div:nth-child(2){
     margin-top: 10px;
 }
-.styleRightD>div>a{
+.styleRightD>div>div{
     width: 338px;
     height: 298px;
     overflow: hidden;
 }
-.styleRightD>div>a>img{
+.styleRightD>div>div>img{
     transition:all  1s;
     transform-origin:50% 50%;
 }
-.styleRightD>div>a>img:hover{
+.styleRightD>div>div>img:hover{
     transform: scale(1.1);
 }
 /* 风格晒茶结束 */
@@ -158,10 +158,10 @@ span{
     display: flex;
     flex-direction: column;
 }
-.productSame>a{
+.productSame>div:nth-child(1){
     transition: all 1s;
 }
-.productSame>a:hover{
+.productSame>div:nth-child(1):hover{
     transform: translate(0px,10px);
 }
 .productSame1{
