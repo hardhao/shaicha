@@ -413,4 +413,19 @@
 
   <!-- Initialize Swiper -->
   <script src="./js/input.js"></script>
+  <script>
+  var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      }
+    });
+</script>
 </html>
