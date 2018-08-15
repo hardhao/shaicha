@@ -249,8 +249,9 @@ footer{
 }
 .srk{
     width: 250px;
+    display: flex;
 }
-.srk>input{
+.srk>div>input{
 line-height: 40px;
 width: 250px;
 text-indent: 10px;
@@ -265,8 +266,11 @@ input::-webkit-inner-spin-button {
     appearance: none; 
     margin: 0; 
 }
+.big{
+    width:280px;
+}
 .biginput{
-    width: 318px;
+    width:280px;
     height:90px;
     margin-top: 14px;
     outline: 0;
@@ -274,17 +278,24 @@ input::-webkit-inner-spin-button {
     font-size: 18px;
     text-indent: 15px;
     padding-top: 10px;
-    resize:none
+    resize:none;
 }
 .push{
     border:2px solid #fff;
     height: 35px;
     line-height: 35px;
     padding: 0 66px;
-    margin-top: 76px;
-    margin-left: 10px;
-    color: #fff;
+    margin-top: 80px;
+    margin-left: 60px;
+    color: rgb(121, 118, 118);
     font-weight: bold;
+    outline: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+.push:hover{
+    color: #fff;
+    background-color: rgb(121, 118, 118);
 }
 /* 提交部分结束 */
 

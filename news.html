@@ -95,14 +95,18 @@
                 <p>have question？</p>
                 <p>如果有任何问题，请随时给我们留言。</p>
             </div>
-            <div class="srk">
-                <input type="text" placeholder="您的姓名">
-                <input type="number" name="name" class="easyui-validatebox"  onkeyup="checkLen2(this)" maxlength="11"
-                data-options="required:true" placeholder="您的电话"
-                required onKeyUp="gcInsert()" onmousewheel='scrollFunc()' onDOMMouseScroll='scrollFunc()'>
-            </div>
-            <textarea class="biginput" placeholder="您的问题"></textarea>
-            <a class="push" href="#">提 交</a>
+            <form class="srk">
+                <div>
+                    <input type="text" placeholder="您的姓名">
+                    <input type="number" name="name" class="easyui-validatebox"  onkeyup="checkLen2(this)" maxlength="11"
+                    data-options="required:true" placeholder="您的电话"
+                    required onKeyUp="gcInsert()" onmousewheel='scrollFunc()' onDOMMouseScroll='scrollFunc()'>
+                </div>
+                <div class="big">
+                    <textarea class="biginput" placeholder="您的问题"></textarea>
+                </div>
+                <input class="push" type="submit" value="提交">
+           </form>
         </div>
     </footer>
 

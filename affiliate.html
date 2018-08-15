@@ -203,7 +203,7 @@
                         <p>区 域 代 理 模 式</p>
                         <p>1.区域代理有独立垄断经营和开放招商的权利</p>
                         <p>2.招商发展授权单店有合作费用返还</p>
-                        <p>3.代理商享有终身核心物料9折优惠</p>
+                        <p>3.代理商享有终身核心物料优惠</p>
                         <p>4.签约代理提供学习期间的食宿补贴</p>
                         <p>5.总部投资巨额广告宣传，代理商坐享丰厚利润</p>
                     </div>
@@ -337,14 +337,18 @@
                 <p>have question？</p>
                 <p>如果有任何问题，请随时给我们留言。</p>
             </div>
-            <div class="srk">
-                <input type="text" placeholder="您的姓名">
-                <input type="number" name="name" class="easyui-validatebox"  onkeyup="checkLen2(this)" maxlength="11"
-                data-options="required:true" placeholder="您的电话"
-                required onKeyUp="gcInsert()" onmousewheel='scrollFunc()' onDOMMouseScroll='scrollFunc()'>
-            </div>
-            <textarea class="biginput" placeholder="您的问题"></textarea>
-            <a class="push" href="#">提 交</a>
+            <form class="srk">
+                <div>
+                    <input type="text" placeholder="您的姓名">
+                    <input type="number" name="name" class="easyui-validatebox"  onkeyup="checkLen2(this)" maxlength="11"
+                    data-options="required:true" placeholder="您的电话"
+                    required onKeyUp="gcInsert()" onmousewheel='scrollFunc()' onDOMMouseScroll='scrollFunc()'>
+                </div>
+                <div class="big">
+                    <textarea class="biginput" placeholder="您的问题"></textarea>
+                </div>
+                <input class="push" type="submit" value="提交">
+           </form>
         </div>
     </footer>
 
